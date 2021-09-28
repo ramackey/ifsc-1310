@@ -14,6 +14,35 @@
       
 <style>   
 
+.color img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+}
+
+.color img:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+}
+
+.color img{
+transition: 1s ease;
+}
+
+.color img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+
+
 blockquote span{
 
   background:grey;
@@ -81,17 +110,24 @@ em{
     <body>
         
         <div class="container">
+            <!-- h1 is the most important-->
+            <h1><span>Project One</span></h1>   
+            <!-- h2 is the next most important-->
             
-            <h1><span>Project One</span></h1>
             <h2>Is Mayonnaise An Instrument?</h2>
           
-           
+           <!-- h3 is the next most important-->
             <h3>Is Mayonnaise An Instrument</h3>
+            <!-- h4 is the next most important, this one also has an inline quote-->
             <h4>Is Mayonnaise An Instrument <q>This is an Inline Quote</q></h4>
+            <!-- h5 is the next most important-->
             <h5>Is Mayonnaise An Instrument</h5>
-            <h6>Is Mayonnaise An Instrument</h6>
+            
+            <!-- p is a paragraph-->
             <p>Is Mayonnaise An Instrument</p>
+            <!-- strong indicates strong importance-->
             <strong>Is Mayonnaise An Instrument</strong>
+            <!-- em makes it italic-->
             <em>Is Mayonnaise An Instrument</em>
             
             <blockquote><span>This is a Blockquote</span></blockquote>
@@ -130,7 +166,7 @@ em{
             
           
 
-
+<caption>This is My table</caption>
 <table class="Mytable">
   <thead>
     <tr>
@@ -180,10 +216,14 @@ em{
   </tbody>
 </table>
 
+<div class="color">
+<img src="https://thomaswallace.net/wp-content/uploads/2018/02/gordo.jpeg" alt="This is Gordo" title="~No Mortal Man Can Look At Him for This Long~">
+</div> <!-- Closes the Color Class div-->
+
 
 
 <ul>
-  <a href="" title="Links to the Home Page"><li>Home</li></a>
+  <a href="https://ramackey.github.io/ifsc-1310/" title="Links to the Home Page"><li>Home</li></a>
  <a href="" title="Links to the About Page"><li>About</li></a>
   <a href="https://ualr.edu/" target="_blank" title="Links to the UALR Website"><li>UALR</li></a>
   <a href="" title="Links to the Contact Info Page"><li>Contact</li></a>
@@ -195,7 +235,15 @@ em{
 
 
             
+            <!-- h6 is the next most important-->
+            <h6>Is Mayonnaise An Instrument &copy2021 Royce Mackey
+            <br>
+            <li><a href="#top" title="This is an example of an anchor link">Top</a></li>
+            <li><a href="mailto:mackey@ualr.edu" title="This is a contact link">Contact</a></li>
             
+            
+            
+            </h6>
             
             
             
