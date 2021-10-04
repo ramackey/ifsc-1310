@@ -1,0 +1,81 @@
+* {
+  text-align: center;
+}
+
+
+.color img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+}
+
+.color img:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+transition: 1s ease;
+}
+
+.color img{
+transition: 1s ease;
+}
+
+.color img:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: 1s ease;
+}
+
+
+blockquote span{
+
+  background:grey;
+
+}
+
+
+h1 {
+  font-size:100px;
+  text-shadow: 1px 1px 2px purple;
+  color:navy;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right,green 0%,blue 100%);
+}
+
+h2{
+  font-size: 50px;
+   background: url(../img/patrick.gif);
+   background-size:5%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+table.Mytable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #101089;
+  border-style: solid;
+  color: #000000;
+}
+
+table.Mytable td, table.Mytable th {
+  border-width: 2px;
+  border-color: #101089;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.Mytable thead {
+  background-color: #101089;
+}
+
+em{
+     display: block;
+}
