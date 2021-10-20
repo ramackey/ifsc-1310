@@ -1,0 +1,337 @@
+/*  CSS Demo stylesheet */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+/*Utility classes*/
+.container {
+  width:70vw;
+  margin:40px auto;    
+}
+
+
+.img-right{
+  float: right;
+  border:1px solid #000;
+  padding:5px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+/*responsive images*/
+img{
+  max-width: 100%;
+  height:auto;
+}
+
+
+/*Globad Styles*/
+
+body{
+    background-color:#EDEDE6 ;
+    font-family: 'Oxygen', sans-serif;
+    margin:0;
+    
+}
+
+header.primary {
+    text-align: center;
+    background-color:#BFB6A8;
+    color:white;
+    /*Long form*/
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    /* T, R, B, L*/
+    padding: 40px 40px 20px 40px;
+    /*Top Bottem, RL*/
+    padding:20px 40px;
+    text-shadow: 2px 2px #000000;
+    
+
+
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' viewBox='0 0 20 16'%3E%3Cg fill='%239C92AC' fill-opacity='0.12'%3E%3Cpath fill-rule='evenodd' d='M0 .04C2.6.22 4.99 1.1 7 2.5A13.94 13.94 0 0 1 15 0h4c.34 0 .67.01 1 .04v2A12 12 0 0 0 7.17 12h5.12A7 7 0 0 1 20 7.07V14a5 5 0 0 0-3-4.58A5 5 0 0 0 14 14H0V7.07c.86.12 1.67.4 2.4.81.75-1.52 1.76-2.9 2.98-4.05C3.79 2.83 1.96 2.2 0 2.04v-2z'/%3E%3C/g%3E%3C/svg%3E");
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+header.primary h1 {
+  font-size: 2.8rem;
+  margin:20px 0;
+}
+
+header.primary h1 a {
+  color:#ffffff;
+  text-decoration:none;
+}
+
+header.primary h2 {
+  font-size:1.4rem;
+  /*Top LR Bottom*/
+  margin: 20px auto 40px;
+}
+
+header.primary nav {
+  width:50vw;
+  margin: 20px auto;
+
+  max-width: 900px;
+  
+}
+
+header.primary nav ul{
+  padding:0;
+  display: flex;
+  flex-direction: row;
+   justify-content: space-between;
+}
+
+
+header.primary nav li{
+  list-style-type: none;
+  
+}
+
+header.primary nav a {
+  color:#FFFFFF;
+  text-decoration: none;
+  background-color:#636159;
+  padding: 8px 16px;
+  border-radius:20px;
+  background-color: rgba(0, 0, 0, .4);
+  transition: .5;
+  
+}
+
+header nav a:hover, header nav a:active {
+  background-color:rgba(0,0,0,.8);
+}
+
+
+#intro h2{
+  border-bottom:2px solid;
+  
+}
+
+#intro p{
+  line-height: 1.8rem;
+  
+}
+
+#intro {
+    border-bottom:2px solid;
+    padding-bottom: 1.1rem;
+}
+
+
+#content {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+      border-bottom:2px solid;
+    padding-bottom: 2.8rem;
+    
+}
+
+#content article.post{
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0,0,0, .4);
+  padding:10px;
+  border-radius: 4px;
+  font-size: .7rem;
+}
+
+#content article.post:hover{
+    box-shadow: 0 8px 16px rgba(0,0,0, .4);
+    transition:.5s;
+}
+
+
+time.post-date, figcaption, .post-meta{
+  text-transform:uppercase;
+  color: grey;
+}
+
+#content .post figure{
+  margin: 0;
+}
+
+.post a{
+  color:grey;
+  transition: .5s;
+}
+
+.post a:hover, .post a:active{
+  text-decoration: none;
+  font-size: 110%
+
+}
+
+#additional-elements h2{
+  background-color:#BFB6A8;
+ padding:20px;
+ 
+}
+
+
+#additional-elements img{
+  
+}
+
+#additional-elements h3 {
+  border-left:4px solid #000;
+  padding-left: 10px
+}
+
+table{
+  width:100%;
+  border:4px solid #000;
+  margin-bottom:40px;
+  border-collapse: collapse;
+}
+
+table caption{
+  
+}
+
+table tr:nth-child(even){
+  background-color: rgba(0,0,0, .1) 
+}
+
+table th{
+  background-color:grey;
+  padding:10px;
+  
+}
+
+table td{
+  border: 2px solid #000;
+  padding:5;
+  text-align:center;
+}
+
+table tr:hover{
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*attribute selectors*/
+
+aside[role="complementary"]{
+  background-color:#BFB6A8;
+  color:#fff;
+  padding:1.8rem
+  
+}
+
+aside .container{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+} 
+
+
+article.widget{
+  width:45%;
+}
+
+article.widget a {
+  color:#fff;
+  display:block;
+  margin:1.4rem;
+}
+
+article.widget footer{
+  display:none;
+}
+
+
+#colophon {
+  background-color:#BFB6A8;
+
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='16' viewBox='0 0 20 16'%3E%3Cg fill='%239C92AC' fill-opacity='0.12'%3E%3Cpath fill-rule='evenodd' d='M0 .04C2.6.22 4.99 1.1 7 2.5A13.94 13.94 0 0 1 15 0h4c.34 0 .67.01 1 .04v2A12 12 0 0 0 7.17 12h5.12A7 7 0 0 1 20 7.07V14a5 5 0 0 0-3-4.58A5 5 0 0 0 14 14H0V7.07c.86.12 1.67.4 2.4.81.75-1.52 1.76-2.9 2.98-4.05C3.79 2.83 1.96 2.2 0 2.04v-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+#colophon h6{
+  padding:20px;
+  margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Media Query Examnple*/
+
+@media screen and (max-width:970px) {
+  header.primary nav ul{
+    flex-direction:column;
+    max-width:70vw;
+    margin:auto;
+    
+  }
+  
+  
+  header.primary nav a {
+  display:block;  
+    
+  }
+  
+  header.primary nav li{
+    margin-bottom: 10px;
+  }
+  
+}
