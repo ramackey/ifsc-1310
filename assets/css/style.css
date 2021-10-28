@@ -40,20 +40,26 @@ ul{
 
 
 ul a{
-    padding 5px;
-    margin:5px;
  
+    padding:10px;
     color:#FFFFFF;
   text-decoration: none;
   background-color:#636159;
   
   border-radius:20px;
   background-color: rgba(0, 0, 0, .4);
-  transition: .5;
+  transition: .7s;
   
 }
 
 
 ul a:hover{
      background-color: rgba(0, 0, 0, .8);
+}
+
+ul li{
+    padding:10px;
+    justify-content:space-around;
+     list-style-type: none;
+    
 }
