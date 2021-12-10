@@ -73,7 +73,7 @@ header.primary nav a{
 
 header nav a:hover, header nav a:active {
   background-color:#005288;
-  color:#005288;
+  color:white;
   transition:.5s;
 }
 
@@ -99,7 +99,7 @@ header nav a:hover, header nav a:active {
 
   header nav a:hover, header nav a:active {
   background-color:#005288;
-  color:#005288;
+  color:white;
   transition:.5s;
 }
   
@@ -183,12 +183,29 @@ details[open] summary {
 }
 
 
+	.gallery{
+	  max-width:100%;
+    height: auto;
+	  
+	  
+	}
+
+	
+	
+
+.gallery img {
+	margin: 15px;
+	width:100%;
+
+}
 
 
 
 
 
-
+p, li, ul {
+  font-size: larger;
+}
 
 
 
